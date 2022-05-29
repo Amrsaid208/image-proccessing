@@ -2,8 +2,6 @@
 # Vehicle Detection Project
 
 
-## Udacity Self-Driving Car Nanodegree Project 4
-
 ![alt text][video2]
 
 ---
