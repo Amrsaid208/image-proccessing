@@ -33,20 +33,6 @@ The goals / steps of this project are the following:
 
 ---
 
-## Install
-
-This project requires **Python 3.5** with the following libraries/dependencies installed:
-
-- [Numpy](http://www.numpy.org/)
-- [Matplotlib](http://matplotlib.org/)
-- [OpenCV](http://opencv.org/)
-- [MoviePy](http://zulko.github.io/moviepy/)
-- [scipy](https://www.scipy.org/)
-- [skimage](http://scikit-image.org/)
-- [sklearn](http://scikit-learn.org/)
-
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://jupyter.org/).
-
 ## Code
 
 - `vehicle-detection.ipynb` - The main notebook of the project.
@@ -124,16 +110,6 @@ Here are some example images with sliding window scale of 1.5:
 
 ![alt text][image9]
 
-Ultimately I searched on four scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result.
-
-Here is a table shown different `ystart` and `ystop` for different scales of sliding search window.
-
-|`Scale`|`ystart`|`ystop`|
-|:-----:|:------:|:-----:|
-| 1.0   |  400   |  496  |
-| 1.25  |  400   |  528  |
-| 1.5   |  400   |  592  |
-| 1.75  |  400   |  656  |
 
 ---
 
@@ -159,7 +135,6 @@ Here's a [link to my combined video result](https://youtu.be/HpSD8QF-xCo).
 
 And a GIF:
 
-![alt text][video2]
 
 ---
 
